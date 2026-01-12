@@ -1,13 +1,7 @@
-#include <iostream>
-#include <print>
+#include "cat_vm.hpp"
 
-int main() 
+int main()
 {
-	// traditional way
-   std::cout << "Hello, World! " << 2026 <<"\n";
-	// modern c++ way
-	constexpr int version = 23;
-   std::println("Hello from C++ version {}", version );
-
-   return 0;
+	CatVM vm;
+	vm.Initialize( 0xFFFF );
 }
