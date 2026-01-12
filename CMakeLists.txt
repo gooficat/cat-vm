@@ -20,7 +20,7 @@ include_directories(include)
 # Add executable
 add_executable(${PROJECT_NAME}
     src/main.cpp
-    src/cat_vm.cpp
+    src/vm.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE

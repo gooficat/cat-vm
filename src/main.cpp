@@ -1,7 +1,7 @@
-#include "cat_vm.hpp"
+#include "vm.hpp"
 
 int main()
 {
-	CatVM vm;
-	vm.Initialize( 0xFFFF );
+	Cat::VM vm;
+	vm.Initialize( 0xFFFF );  // 16 bit upper bound
 }
