@@ -1,1 +1,1 @@
-- Decide on an architecture layout
+ - Implement the base instruction set
